@@ -1,0 +1,13 @@
+@import '_settings';
+
+.nav {
+	&__primary a {
+		color: $nav-text;
+		text-transform: uppercase;
+		font-size: $nav-text-size;
+	}
+	&__primary a:hover {
+		color: rgba($nav-text, .5);
+		
+	}
+}
