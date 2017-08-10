@@ -1,4 +1,7 @@
+//@import '_settings';
+
 // General Site Customizations
+
 
 // 0. Custom by greg
 // -----------------
@@ -10,3 +13,125 @@ $nav-bar: #DABE9C;
 // Custom font size 
 $nav-text-size: 1.1rem;
 // end Custom font size 
+
+
+// .relative-container{
+// 	position: relative;
+// 	top: 0;
+// 	left: 0;
+// 	color: red;
+// 	border-right: 5px solid black;
+// 	// z-index: -1;
+// 	// height: 1500px;         /////// problem
+// }
+
+// .absolute-container{
+// 	position: absolute;
+// 	width: 100%;
+// 	top: 50;
+// 	// height: 100%;
+// 	//left: 0;
+// 	//top: 100;
+// 	 // margin: 0;
+//     // padding: 0;
+//     // position: fixed;
+//    // left: 0;
+//    // right: 0;
+//    // bottom: 0;
+// 	// z-index: 99;
+// }
+
+
+
+// testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//testing 7a index
+
+// $sticky-shrinknav-menu-height: rem-calc(60);
+// $sticky-shrinknav-hero-height: 300px;
+
+
+// body {
+//   padding-top: $sticky-shrinknav-hero-height + 30px;
+// }
+
+// .sticky-shrinknav-menu {
+//   @include horizontal-center;
+//   bottom: 0;
+//   height: $sticky-shrinknav-menu-height;
+//   line-height: $sticky-shrinknav-menu-height;
+//   width: 100%;
+//   background-color: rgba(green, 0.1);
+//   transition: all 0.5s ease;
+
+//   li {
+//     border-radius: 2px;
+//     transition: all 0.3s ease;
+
+//     &:hover {
+//       box-shadow: 0 0 0 1px orange;
+//     }
+//   }
+
+//   a {
+//     color: orange;
+//   }
+// }
+
+// .sticky-shrinknav-header-title {
+//   transition: all 0.3s ease;
+//   position: relative;
+//   transform: translateY(-$sticky-shrinknav-menu-height/2);
+//   margin-bottom: 0;
+//   color: red;
+// }
+
+// .sticky-shrinknav-header {
+//   width: 100%;
+//   height: $sticky-shrinknav-hero-height;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background-color: lighten(blue, 10%);
+//   text-align: center;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   overflow: hidden;
+//   transition: all 0.5s ease;
+// }
+
+// body.sticky-shrinknav-wrapper {
+//   padding-top: 0px;
+
+//   .sticky-shrinknav-header{
+//     height: $sticky-shrinknav-menu-height;
+//     background-color: blue;
+
+
+
+//     .sticky-shrinknav-header-title{
+//       transform: scale(0);
+//       transition: all 1.3s ease;
+//     }
+//   }
+// }
+
+
+
+
