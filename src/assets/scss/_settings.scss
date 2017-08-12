@@ -56,7 +56,7 @@
 //  50. Table
 //  51. Tabs
 //  52. Thumbnail
-//  53. Title Bar
+//  53. Title Bar55
 //  54. Tooltip
 //  55. Top Bar
 //  56. Xy Grid
@@ -286,7 +286,7 @@ $button-font-family: inherit;
 $button-padding: 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
-$button-background: $primary-color;
+$button-background: $btn-primary-c; // $primary-color; 
 $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: $white;
 $button-color-alt: $black;
@@ -300,8 +300,8 @@ $button-sizes: (
 );
 $button-palette: $foundation-palette;
 $button-opacity-disabled: 0.25;
-$button-background-hover-lightness: -20%;
-$button-hollow-hover-lightness: -50%;
+$button-background-hover-lightness: -20%; //lighten($btn-primary, 24%);    //-20%;
+$button-hollow-hover-lightness: -50%;  //lighten($btn-primary, 24%);    //-50%;
 $button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
 
 // 12. Button Group
@@ -844,8 +844,8 @@ $tooltip-radius: $global-radius;
 // 55. Top Bar
 // -----------
 
-$topbar-padding: 0.5rem;
-$topbar-background:  $nav-bar;  /*  $light-gray; */
+$topbar-padding: 0.5rem 1rem 0.5rem 0.5rem;
+$topbar-background:  $nav-bar-c;  /*  $light-gray; */
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;

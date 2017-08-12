@@ -10,6 +10,7 @@
 	position: absolute;
 	top: $top_position;
 	width: 100%;
+	// margin-right: 3rem;
 	-webkit-transition: all $transition_speed ease;
 	transition: all $transition_speed ease;
 }
@@ -29,18 +30,21 @@
 }
 
 .nav {
+	&__links--primary {
+		margin-right: 0.5rem;
+	}
 	&__links--primary a {
-		color: $nav-text;
+		color: $nav-text-c;
 		text-transform: uppercase;
 		font-size: $nav-text-size;
 	}
 	&__links--primary a:hover {
-		color: rgba($nav-text, .5);		
+		color: rgba($nav-text-c, .5);		
 	}
 	//Set the primary navbar when page is loaded or scrolled up to top of page to normal size
 	&__nav-bar--primary-loaded{
 		// border top thickness, border bottom thinkness, border color, top absolute position of the menu bar
-		@include navbar--primary(1px, 2px, red, 40px, .7s);		
+		@include navbar--primary(1px, 2px, $border-c, 40px, .7s);		
 		.logo-name{
 			// @media screen and (max-width: 39.9375em) 
 			@include breakpoint(small only) {
@@ -55,7 +59,7 @@
 	&__nav-bar--primary-moved{
 		padding: 0;
 		// border top thickness, border bottom thinkness, border color, top absolute position of the menu bar
-		@include navbar--primary(0, 2px, red, 0, .7s);
+		@include navbar--primary(0, 2px, $border-c, 0, .7s);
 		.logo-name{
 			// margin border top, right, bottom, left; padding, transition speed, scale
 			@include logo--primary(0, 0, 0, 3rem, 0, .7s, .75);

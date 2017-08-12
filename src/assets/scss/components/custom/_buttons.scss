@@ -1,0 +1,16 @@
+@import '_settings';
+
+$btn_hover: lighten($btn-primary-c, 15%);
+$btn_focus: lighten($btn-primary-c, 0%);
+// $btn_focus: $btn-primary-c;
+
+.hollow.button {
+  &:hover {
+    color: $btn_hover;
+    border-color: $btn_hover;
+  }
+  &:focus {
+  	color: $btn_focus;
+    border-color: $btn_focus;
+  }
+}
